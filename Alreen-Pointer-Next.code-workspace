@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "Alreen Pointer Next",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
+}

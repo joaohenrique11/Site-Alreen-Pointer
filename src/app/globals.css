@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-title: Georgia, "Times New Roman", serif;
+  --font-body: Arial, Helvetica, sans-serif;
+  --color-brand-primary: #0D3B39;
+  --color-brand-secondary: #FCF7B6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+}
+
+.hero-surface {
+  background:
+    radial-gradient(circle at 78% 24%, rgba(252, 247, 182, 0.14), transparent 30rem),
+    linear-gradient(90deg, rgba(13, 59, 57, 0.96), rgba(13, 59, 57, 0.78) 52%, rgba(13, 59, 57, 0.92)),
+    url("https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1800&q=85");
+  background-position: center;
+  background-size: cover;
+}
+
+.map-frame iframe {
+  filter: grayscale(1) invert(0.92) contrast(0.9);
+}
